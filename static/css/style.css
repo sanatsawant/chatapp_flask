@@ -1,0 +1,174 @@
+/* Reset + base */
+* {
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    background: #f4f6f8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Form container */
+form.buttons {
+    background: #ffffff;
+    padding: 30px 35px;
+    width: 350px;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+/* Title */
+form h1 {
+    margin-bottom: 25px;
+    text-align: center;
+    font-size: 22px;
+    color: #333;
+}
+
+/* Input groups */
+form div {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    font-size: 14px;
+    color: #555;
+}
+
+/* Inputs */
+input[type="text"] {
+    width: 100%;
+    padding: 10px 12px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+input[type="text"]:focus {
+    outline: none;
+    border-color: #4a90e2;
+}
+
+/* Join section */
+.join {
+    display: flex;
+    gap: 10px;
+}
+
+.join input {
+    flex: 1;
+}
+
+/* Buttons */
+button {
+    padding: 10px 14px;
+    border: none;
+    border-radius: 6px;
+    font-size: 14px;
+    cursor: pointer;
+    background: #4a90e2;
+    color: white;
+}
+
+button:hover {
+    background: #357bd8;
+}
+
+/* Create room button */
+.create-btn {
+    width: 100%;
+    margin-top: 10px;
+    background: #2ecc71;
+}
+
+.create-btn:hover {
+    background: #27ae60;
+}
+
+/* Page center */
+body {
+    margin: 0;
+    height: 100vh;
+    background: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Chat container */
+.message-box {
+    width: 400px;
+    height: 500px;
+    background: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Header */
+.message-box h2 {
+    margin: 0;
+    padding: 15px;
+    text-align: center;
+    background: #4a90e2;
+    color: white;
+    border-radius: 10px 10px 0 0;
+    font-size: 18px;
+}
+
+/* Messages area */
+.messages {
+    flex: 1;
+    padding: 10px;
+    overflow-y: auto;
+    background: #f9f9f9;
+}
+
+/* Single message (future use) */
+.message {
+    margin-bottom: 8px;
+    padding: 8px 10px;
+    background: #e1f0ff;
+    border-radius: 6px;
+    font-size: 14px;
+}
+
+/* Input area */
+.inputs {
+    display: flex;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+    gap: 10px;
+}
+
+/* Message input */
+.inputs input {
+    flex: 1;
+    padding: 8px 10px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+}
+
+/* Send button */
+#send-btn {
+    padding: 8px 14px;
+    border: none;
+    border-radius: 6px;
+    background: #4a90e2;
+    color: white;
+    cursor: pointer;
+}
+
+#send-btn:hover {
+    background: #357bd8;
+}
